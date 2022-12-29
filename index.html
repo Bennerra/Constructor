@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Constructor</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="site-container">
+        <header class="header">
+            <div class="header__container">
+                <div class="header__left">
+                    <div class="header__navigation">
+                        <a href="#" class="header__navigation-link">
+                            <img src="./img/navigation.svg" alt="Navigation">
+                        </a>
+                    </div>
+                    <div class="header__logo">Constructor</div>
+                </div>
+                <nav class="header__menu">
+                    <ul class="menu__list">
+                        <li class="menu__item"><a href="#" class="menu__link">Dashboard</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">Pages</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">Posts</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">Files</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">Users</a></li>
+                        <li class="menu__item">
+                            <img src="./img/etc.svg" alt="Open menu">
+                        </li>
+                    </ul>
+                </nav>
+                <form action="#" class="header__form search__form">
+                    <input type="text" class="search__form-field" placeholder='Try searching "NewProducts"'>
+                    <button type="submit" class="search__form-button" aria-label="Try searching NewProducts">
+                        <img src="./img/search.svg" alt="Search">
+                    </button>
+                </form>
+                <div class="header__icons">
+                    <div class="header__icon">
+                        <div class="header__icon-number">1</div>
+                        <a href="#" class="header__icon-link">
+                            <img src="./img/header-icon1.svg" alt="Notifications">
+                        </a>
+                    </div>
+                    <div class="header__icon">
+                        <a href="#" class="header__icon-link">
+                            <img src="./img/header-icon2.svg" alt="Chats">
+                        </a>
+                    </div>
+                    <div class="header__icon">
+                        <a href="#" class="header__icon-link">
+                            <img src="./img/header-icon3.svg" alt="Profile">
+                        </a>
+                    </div>
+                    <div class="header__icon">
+                        <a href="#" class="header__icon-link">
+                            <img src="./img/header-icon4.svg" alt="Analytics">
+                        </a>
+                    </div>
+                    <div class="header__icon-media">
+                        <a href="#" class="icon__link-media">
+                            <img src="./img/profile-media.svg" alt="Profile">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="container main-container">
+                <div class="sidebar">
+                    <div class="sidebar__navigation">
+                        <nav class="sidebar__navigation-functions">
+                            <ul class="functions__list">
+                                <div class="function__item">
+                                    <a href="#" class="function-link">
+                                        <div class="function__left">
+                                            <div class="function__icon">
+                                                <img src="./img/function-icon1.svg" alt="" aria-hidden="true">
+                                            </div>
+                                            <div class="function__text function__text-first">My projects</div>
+                                        </div>
+                                        <div class="function__right">
+                                            <div class="function__num function__num-projects">9</div>
+                                            <div class="function__arrow">
+                                                <img src="./img/arrow-function.svg" alt="Expand">
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="function__item">
+                                    <a href="#" class="function-link">
+                                        <div class="function__left">
+                                            <div class="function__icon">
+                                                <img src="./img/function-icon2.svg" alt="" aria-hidden="true">
+                                            </div>
+                                            <div class="function__text function__text-accent">Chats</div>
+                                        </div>
+                                        <div class="function__right">
+                                            <div class="function__num function__num-chats">2</div>
+                                        <div class="function__arrow">
+                                            <img src="./img/arrow-function2.svg" alt="Expand">
+                                        </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="function__item">
+                                    <a href="#" class="function-link">
+                                        <div class="function__left">
+                                            <div class="function__icon">
+                                                <img src="./img/function-icon3.svg" alt="" aria-hidden="true">
+                                            </div>
+                                            <div class="function__text">Tasks</div>
+                                        </div>
+                                        <div class="function__right">
+                                            <div class="function__arrow">
+                                                <img src="./img/arrow-function2.svg" alt="Expand">
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="function__item">
+                                    <a href="#" class="function-link">
+                                        <div class="function__left">
+                                            <div class="function__icon">
+                                                <img src="./img/function-icon4.svg" alt="" aria-hidden="true">
+                                            </div>
+                                            <div class="function__text">Calendars</div>
+                                        </div>
+                                        <div class="function__right">
+                                            <div class="function__num function__num-calendars">9</div>
+                                            <div class="function__arrow">
+                                                <img src="./img/arrow-function2.svg" alt="Expand">
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="function__item">
+                                    <a href="#" class="function-link">
+                                        <div class="function__left">
+                                            <div class="function__icon">
+                                                <img src="./img/function-icon5.svg" alt="" aria-hidden="true">
+                                            </div>
+                                            <div class="function__text">Messages</div>
+                                        </div>
+                                        <div class="function__right">
+                                            <div class="function__arrow">
+                                                <img src="./img/arrow-function2.svg" alt="Expand">
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="function__item">
+                                    <a href="#" class="function-link">
+                                        <div class="function__left">
+                                            <div class="function__icon">
+                                                <img src="./img/function-icon6.svg" alt="" aria-hidden="true">
+                                            </div>
+                                            <div class="function__text">Statistics</div>
+                                        </div>
+                                        <div class="function__right">
+                                            <div class="function__arrow">
+                                                <img src="./img/arrow-function2.svg" alt="Expand">
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="sidebar__projects">
+                        <div class="sidebar__projects-dedlines">
+                            <div class="sidebar__top dedlines__top">
+                                <div class="sidebar__top-text dedlines__top-text">Projects on Dedlines</div>
+                                <div class="sidebar__top-etc dedlines__top-etc">
+                                    <a href="#"><img src="./img/etc.svg" alt="Open dedlines"></a>
+                                </div>
+                            </div>
+                            <div class="dedlines__button">
+                                <a href="#" class="dedlines__link">
+                                    <div class="dedlines__link-text">Develop Chat Application</div>
+                                    <div class="dedlines__link-arrow">
+                                        <img src="./img/dedlines-arrow.svg" alt="Open chat">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="sidebar__projects-cards">
+                            <a href="#" class="project__card-link">
+                                <div class="projects__card">
+                                <div class="projects__card-num card__num-projects">3</div>
+                                <div class="projects__card-text">Projects</div>
+                            </div>
+                            </a>
+                            <a href="#" class="project__card-link">
+                                <div class="projects__card">
+                                <div class="projects__card-num card__num-tasks">9</div>
+                                <div class="projects__card-text">Tasks</div>
+                            </div>
+                            </a>
+                            <a href="#" class="project__card-link">
+                                <div class="projects__card">
+                                <div class="projects__card-num card__num-messages">2</div>
+                                <div class="projects__card-text">Messages</div>
+                            </div>
+                            </a>
+                            <a href="#" class="project__card-link">
+                                <div class="projects__card">
+                                <div class="projects__card-num card__num-chats">1</div>
+                                <div class="projects__card-text">Chats</div>
+                            </div>
+                            </a>
+                        </div>
+                        <div class="sidebar__projects-recent">
+                            <div class="sidebar__top recent__top">
+                                <div class="sidebar__top-text recent__top-text">Recent Projects</div>
+                                <div class="sidebar__top-etc recent__top-etc">
+                                    <a href="#"><img src="./img/etc.svg" alt="Open dedlines"></a>
+                                </div>
+                            </div>
+                            <div class="recent__projects">
+                                <a href="#" class="recent__item">
+                                    <div class="recent__item-text">City Advertising Campaign</div>
+                                    <div class="recent__item-button">
+                                        <img src="./img/recent-arrow.svg" alt="Open project">
+                                    </div>
+                                    <div class="recent__button-green">
+                                        <img src="./img/arrow-green.svg" alt="Open project">
+                                    </div>
+                                </a>
+                                <a href="#" class="recent__item">
+                                    <div class="recent__item-text">Web Application Development</div>
+                                    <div class="recent__item-button">
+                                        <img src="./img/recent-arrow.svg" alt="Open project">
+                                    </div>
+                                    <div class="recent__button-green">
+                                        <img src="./img/arrow-green.svg" alt="Open project">
+                                    </div>
+                                </a>
+                                <a href="#" class="recent__item">
+                                    <div class="recent__item-text">Twitter App</div>
+                                    <div class="recent__item-button">
+                                        <img src="./img/recent-arrow.svg" alt="Open project">
+                                    </div>
+                                    <div class="recent__button-green">
+                                        <img src="./img/arrow-green.svg" alt="Open project">
+                                    </div>
+                                </a>
+                                <a href="#" class="recent__item">
+                                    <div class="recent__item-text">Facebook Application</div>
+                                    <div class="recent__item-button">
+                                        <img src="./img/recent-arrow.svg" alt="Open project">
+                                    </div>
+                                    <div class="recent__button-green">
+                                        <img src="./img/arrow-green.svg" alt="Open project">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="page">
+                    <section class="dashboard">
+                        <h1 class="dashboard__title">Dashboard Projects</h1>
+                        <ul class="dashboard__information">
+                            <li class="dashboard__information-item">
+                                <a href="#" class="dashboard__information-link">Dashboard</a>
+                            </li>
+                            <li class="dashboard__information-item">
+                                <a href="#" class="dashboard__information-link">All Projects</a>
+                            </li>
+                            <li class="dashboard__information-item">
+                                <a href="#" class="dashboard__information-link">Schedule</a>
+                            </li>
+                            <li class="dashboard__information-item">
+                                <a href="#" class="dashboard__information-link">Statistics</a>
+                            </li>
+                            <li class="dashboard__information-item">
+                                <a href="#" class="dashboard__information-link">Activity</a>
+                            </li>
+                            <li class="dashboard__information-item">
+                                <a href="#" class="dashboard__information-link">Members</a>
+                            </li>
+                        </ul>
+                        <div class="dashboard__add">
+                            <button class="dashboard__add-btn">
+                                <img src="./img/icon-add.svg" alt="Add new project">
+                            </button>
+                            <a href="#" class="dashboard__add-text">Add New Project</a>
+                        </div>
+                    </section>
+                    <section class="content">
+                        <div class="content__header">
+                            <div class="content__header-slider">
+                                <button class="header__slider-btn">
+                                    <img src="./img/header-slider-left.svg" alt="Swipe">
+                                </button>
+                                <div class="header__slider-menu">
+                                    <ul class="slider__menu-list">
+                                        <li class="slider__menu-item">
+                                            <a href="#" class="slider__menu-link">Main</a>
+                                        </li>
+                                        <li class="slider__menu-item slider__item-active">
+                                            <a href="#" class="slider__menu-link slider__link-active">Project Stages</a>
+                                        </li>
+                                        <li class="slider__menu-item">
+                                            <a href="#" class="slider__menu-link">Tasks</a>
+                                        </li>
+                                        <li class="slider__menu-item">
+                                            <a href="#" class="slider__menu-link">Messages</a>
+                                        </li>
+                                        <li class="slider__menu-item">
+                                            <a href="#" class="slider__menu-link">Chat</a>
+                                        </li>
+                                        <li class="slider__menu-item">
+                                            <a href="#" class="slider__menu-link">Members</a>
+                                        </li>
+                                        <li class="slider__menu-item">
+                                            <a href="#" class="slider__menu-link">Customer</a>
+                                        </li>
+                                        <li class="slider__menu-item">
+                                            <a href="#" class="slider__menu-link">Files</a>
+                                        </li>
+                                        <li class="slider__menu-item">
+                                            <a href="#" class="slider__menu-link">Activity</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <button class="header__slider-btn">
+                                    <img src="./img/header-slider-right.svg" alt="Swipe">
+                                </button>
+                            </div>
+                            <div class="content__header-bottom">
+                                <div class="header__bottom-search">
+                                    <div class="bottom__search-icon">
+                                        <img src="./img/search.svg" alt="Search">
+                                    </div>
+                                    <div class="bottom__search-text">Search Task</div>
+                                </div>
+                                <div class="header__bootom-stages">
+                                    <div class="bootom__stages-item">List of Stages</div>
+                                    <div class="bootom__stages-item">Stages Calendar</div>
+                                </div>
+                                <div class="header__bottom-add">
+                                    <div class="bottom__add-icon">
+                                        <img src="./img/icon-add.svg" alt="Search">
+                                    </div>
+                                    <div class="bottom__add-text">Add New Stage</div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="container__content">
+                    <div class="content__cards">
+                        <div class="content__cards-item">
+                            <a href="#" class="cards__item-main">
+                                <div class="cards__item-main">
+                                    <div class="cards__item-num">1</div>
+                                    <div class="cards__item-text">Develop Chat Application</div>
+                                    <div class="cards__item-show">
+                                        <div class="show__icon">
+                                            <img src="./img/show-icon.svg" alt="Show on">
+                                        </div>
+                                        <div class="show__text">Show On</div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="cards__item-bottom">
+                                <button class="item__bottom-flag">
+                                    <div class="bottom__flag-icon">
+                                        <img src="./img/flag-icon.svg" alt="">
+                                    </div>
+                                    <div class="bottom__flag-num">10</div>
+                                </button>
+                                <button class="item__bottom-people">
+                                    <div class="bottom__people-icon">
+                                        <img src="./img/people-icon.svg" alt="">
+                                    </div>
+                                    <div class="bottom__people-num">6</div>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="content__cards-item">
+                            <a href="#" class="cards__item-main">
+                                <div class="cards__item-main">
+                                    <div class="cards__item-num">2</div>
+                                    <div class="cards__item-text">Effective 
+                                        Advertising</div>
+                                    <div class="cards__item-show">
+                                        <div class="show__icon">
+                                            <img src="./img/show-icon.svg" alt="Show on">
+                                        </div>
+                                        <div class="show__text">Show On</div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="cards__item-bottom">
+                                <button class="item__bottom-flag">
+                                    <div class="bottom__flag-icon">
+                                        <img src="./img/flag-icon.svg" alt="">
+                                    </div>
+                                    <div class="bottom__flag-num">10</div>
+                                </button>
+                                <button class="item__bottom-people">
+                                    <div class="bottom__people-icon">
+                                        <img src="./img/people-icon.svg" alt="">
+                                    </div>
+                                    <div class="bottom__people-num">6</div>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="content__cards-item">
+                            <a href="#" class="cards__item-main">
+                                <div class="cards__item-main">
+                                    <div class="cards__item-num">3</div>
+                                    <div class="cards__item-text">Development and Testing</div>
+                                    <div class="cards__item-show">
+                                        <div class="show__icon">
+                                            <img src="./img/show-icon.svg" alt="Show on">
+                                        </div>
+                                        <div class="show__text">Show on</div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="cards__item-bottom">
+                                <button class="item__bottom-flag">
+                                    <div class="bottom__flag-icon">
+                                        <img src="./img/flag-icon.svg" alt="">
+                                    </div>
+                                    <div class="bottom__flag-num">10</div>
+                                </button>
+                                <button class="item__bottom-people">
+                                    <div class="bottom__people-icon">
+                                        <img src="./img/people-icon.svg" alt="">
+                                    </div>
+                                    <div class="bottom__people-num">6</div>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="content__cards-item">
+                            <a href="#" class="cards__item-main">
+                                <div class="cards__item-main">
+                                    <div class="cards__item-num">4</div>
+                                    <div class="cards__item-text">Customer 
+                                        Approval</div>
+                                    <div class="cards__item-show">
+                                        <div class="show__icon">
+                                            <img src="./img/show-icon.svg" alt="Show on">
+                                        </div>
+                                        <div class="show__text">Show On</div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="cards__item-bottom">
+                                <button class="item__bottom-flag">
+                                    <div class="bottom__flag-icon">
+                                        <img src="./img/flag-icon.svg" alt="">
+                                    </div>
+                                    <div class="bottom__flag-num">10</div>
+                                </button>
+                                <button class="item__bottom-people">
+                                    <div class="bottom__people-icon">
+                                        <img src="./img/people-icon.svg" alt="">
+                                    </div>
+                                    <div class="bottom__people-num">6</div>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="content__cards-item">
+                            <a href="#" class="cards__item-main">
+                                <div class="cards__item-main">
+                                    <div class="cards__item-num">5</div>
+                                    <div class="cards__item-text">Launch of the 
+                                        project</div>
+                                    <div class="cards__item-show">
+                                        <div class="show__icon">
+                                            <img src="./img/show-icon.svg" alt="Show on">
+                                        </div>
+                                        <div class="show__text">Show On</div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="cards__item-bottom">
+                                <button class="item__bottom-flag">
+                                    <div class="bottom__flag-icon">
+                                        <img src="./img/flag-icon.svg" alt="">
+                                    </div>
+                                    <div class="bottom__flag-num">10</div>
+                                </button>
+                                <button class="item__bottom-people">
+                                    <div class="bottom__people-icon">
+                                        <img src="./img/people-icon.svg" alt="">
+                                    </div>
+                                    <div class="bottom__people-num">6</div>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="content__cards-item">
+                            <a href="#" class="cards__item-main">
+                                <div class="cards__item-main">
+                                    <div class="cards__item-num">6</div>
+                                    <div class="cards__item-text">Reconciliation 
+                                        and recei...</div>
+                                    <div class="cards__item-show">
+                                        <div class="show__icon">
+                                            <img src="./img/show-icon.svg" alt="Show on">
+                                        </div>
+                                        <div class="show__text">Show On</div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="cards__item-bottom">
+                                <button class="item__bottom-flag">
+                                    <div class="bottom__flag-icon">
+                                        <img src="./img/flag-icon.svg" alt="">
+                                    </div>
+                                    <div class="bottom__flag-num">10</div>
+                                </button>
+                                <button class="item__bottom-people">
+                                    <div class="bottom__people-icon">
+                                        <img src="./img/people-icon.svg" alt="">
+                                    </div>
+                                    <div class="bottom__people-num">6</div>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content__table">
+                        <div class="table-container">
+                            <div class="table-item table__month-item"></div>
+                            <div class="table-item table__month-item item-span table-text-light">November</div>
+                            <div class="table-item table__month-item item-span table-text-light">December 2032</div>
+                            <div class="table-item table__month-item item-span table-text-light">January 2033</div>
+                            <div class="table-item table__stages-item table-text">Stages</div>
+                            <div class="table-item table__stages-item table__stages-text">1W</div>
+                            <div class="table-item table__stages-item table__stages-text">2W</div>
+                            <div class="table-item table__stages-item table__stages-text">3W</div>
+                            <div class="table-item table__stages-item table__stages-text">4W</div>
+                            <div class="table-item table__stages-item table__stages-text">1W</div>
+                            <div class="table-item table__stages-item table__stages-text">2W</div>
+                            <div class="table-item table__stages-item table__stages-text">3W</div>
+                            <div class="table-item table__stages-item table__stages-text">4W</div>
+                            <div class="table-item table__stages-item table__stages-text">1W</div>
+                            <div class="table-item table__stages-item table__stages-text">2W</div>
+                            <div class="table-item table__stages-item table__stages-text">3W</div>
+                            <div class="table-item table__stages-item table__stages-text">4W</div>
+                            <div class="table-item table__chat-item">
+                                <div class="chat__item-stage table__column-first">
+                                    <div class="chat__item-num table-num">1</div>
+                                    <div class="chat__item-text table-text">Develop Chat Application</div>
+                                    <div class="chat__item-arrow table-arrow">
+                                        <img src="./img/table-arrow.svg" alt="Expand">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="table-item table__chat-item"></div>
+                            <div class="table-item table__chat-item"></div>
+                            <div class="table-item table__chat-item"></div>
+                            <div class="table-item table__chat-item"></div>
+                            <div class="table-item table__chat-item"></div>
+                            <div class="table-item table__chat-item"></div>
+                            <div class="table-item table__chat-item"></div>
+                            <div class="table-item table__chat-item"></div>
+                            <div class="table-item table__chat-item"></div>
+                            <div class="table-item table__chat-item"></div>
+                            <div class="table-item table__chat-item"></div>
+                            <div class="table-item table__chat-item"></div>
+                            <div class="table-item table__advertising-item">
+                                <div class="advertising__item-stage table__column-first">
+                                    <div class="advertising__item-num table-num">2</div>
+                                    <div class="advertising__item-text table-text">Effective Advertising</div>
+                                    <div class="advertising__item-arrow table-arrow">
+                                        <img src="./img/table-arrow.svg" alt="Expand">
+                                    </div>
+                                </div>
+                                <ul class="advertising__item-list">
+                                    <li class="advertising__item-characteristic">
+                                        <div class="characteristic-icon">
+                                            <img src="./img/characteristic1.svg" alt="" aria-hidden="true">
+                                        </div>
+                                        <div class="characteristic-text">Check Tasks</div>
+                                        <div class="characteristic-num">10</div>
+                                    </li>
+                                    <li class="advertising__item-characteristic">
+                                        <div class="characteristic-icon">
+                                            <img src="./img/header-icon3.svg" alt="" aria-hidden="true">
+                                        </div>
+                                        <div class="characteristic-text">Members</div>
+                                        <div class="characteristic-num">6</div>
+                                    </li>
+                                    <li class="advertising__item-characteristic">
+                                        <div class="characteristic-icon">
+                                            <img src="./img/characteristic3.svg" alt="" aria-hidden="true">
+                                        </div>
+                                        <div class="characteristic-text">Description</div>
+                                    </li>
+                                    <li class="advertising__item-characteristic">
+                                        <div class="characteristic-icon">
+                                            <img src="./img/characteristic4.svg" alt="" aria-hidden="true">
+                                        </div>
+                                        <div class="characteristic-text">Files</div>
+                                        <div class="characteristic-num">10</div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="table-item table__advertising-item"></div>
+                            <div class="table-item table__advertising-item"></div>
+                            <div class="table-item table__advertising-item"></div>
+                            <div class="table-item table__advertising-item"></div>
+                            <div class="table-item table__advertising-item"></div>
+                            <div class="table-item table__advertising-item"></div>
+                            <div class="table-item table__advertising-item"></div>
+                            <div class="table-item table__advertising-item"></div>
+                            <div class="table-item table__advertising-item"></div>
+                            <div class="table-item table__advertising-item"></div>
+                            <div class="table-item table__advertising-item"></div>
+                            <div class="table-item table__advertising-item"></div>
+                            <div class="table-item table__development-item">
+                                <div class="development__item-stage table__column-first">
+                                    <div class="development__item-num table-num">3</div>
+                                    <div class="development__item-text table-text">Development and Testing</div>
+                                    <div class="development__item-arrow table-arrow">
+                                        <img src="./img/table-arrow.svg" alt="Expand">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="table-item table__development-item"></div>
+                            <div class="table-item table__development-item"></div>
+                            <div class="table-item table__development-item"></div>
+                            <div class="table-item table__development-item"></div>
+                            <div class="table-item table__development-item"></div>
+                            <div class="table-item table__development-item"></div>
+                            <div class="table-item table__development-item"></div>
+                            <div class="table-item table__development-item"></div>
+                            <div class="table-item table__development-item"></div>
+                            <div class="table-item table__development-item"></div>
+                            <div class="table-item table__development-item"></div>
+                            <div class="table-item table__development-item"></div>
+                            <div class="table-item table__customer-item">
+                                <div class="customer__item-stage table__column-first">
+                                    <div class="customer__item-num table-num">4</div>
+                                    <div class="customer__item-text table-text">Customer Approval</div>
+                                    <div class="customer__item-arrow table-arrow">
+                                        <img src="./img/table-arrow.svg" alt="Expand">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="table-item table__customer-item"></div>
+                            <div class="table-item table__customer-item"></div>
+                            <div class="table-item table__customer-item"></div>
+                            <div class="table-item table__customer-item"></div>
+                            <div class="table-item table__customer-item"></div>
+                            <div class="table-item table__customer-item"></div>
+                            <div class="table-item table__customer-item"></div>
+                            <div class="table-item table__customer-item"></div>
+                            <div class="table-item table__customer-item"></div>
+                            <div class="table-item table__customer-item"></div>
+                            <div class="table-item table__customer-item"></div>
+                            <div class="table-item table__customer-item"></div>
+                            <div class="table-item table__launch-item">
+                                <div class="launch__item-stage table__column-first">
+                                    <div class="launch__item-num table-num">5</div>
+                                    <div class="launch__item-text table-text">Launch of the project</div>
+                                    <div class="launch__item-arrow table-arrow">
+                                        <img src="./img/table-arrow.svg" alt="Expand">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="table-item table__launch-item"></div>
+                            <div class="table-item table__launch-item"></div>
+                            <div class="table-item table__launch-item"></div>
+                            <div class="table-item table__launch-item"></div>
+                            <div class="table-item table__launch-item"></div>
+                            <div class="table-item table__launch-item"></div>
+                            <div class="table-item table__launch-item"></div>
+                            <div class="table-item table__launch-item"></div>
+                            <div class="table-item table__launch-item"></div>
+                            <div class="table-item table__launch-item"></div>
+                            <div class="table-item table__launch-item"></div>
+                            <div class="table-item table__launch-item"></div>
+                            <div class="table-item table__reconciliation-item">
+                                <div class="reconciliation__item-stage table__column-first">
+                                    <div class="reconciliation__item-num table-num">6</div>
+                                    <div class="reconciliation__item-text table-text">Reconciliation and recei ...</div>
+                                    <div class="reconciliation__item-arrow table-arrow">
+                                        <img src="./img/table-arrow.svg" alt="Expand">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="table-item table__reconciliation-item"></div>
+                            <div class="table-item table__reconciliation-item"></div>
+                            <div class="table-item table__reconciliation-item"></div>
+                            <div class="table-item table__reconciliation-item"></div>
+                            <div class="table-item table__reconciliation-item"></div>
+                            <div class="table-item table__reconciliation-item"></div>
+                            <div class="table-item table__reconciliation-item"></div>
+                            <div class="table-item table__reconciliation-item"></div>
+                            <div class="table-item table__reconciliation-item"></div>
+                            <div class="table-item table__reconciliation-item"></div>
+                            <div class="table-item table__reconciliation-item"></div>
+                            <div class="table-item table__reconciliation-item"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
